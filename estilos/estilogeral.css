@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Arimo";
+    src: url("../fontes/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fontes/BLOODY.TTF");
+}
+
+:root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: Arial, Helvetica, sans-serif;
+
+    --cor1: black;
+    --cor2: white;
+    --cor3: red;
+    --cor4: gray;
+}
+
+body, html {
+    background-color: var(--cor1);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid var(--cor4);
+    position: relative;
+}
+
+header > h1 {
+    color: var(--cor2);
+    font-family: var(--fonte2);
+    padding: 15px;
+}
+
+header > h1 > span#pasta {
+    color: var(--cor3);
+}
+
+header > span#burger {
+    color: var(--cor2);
+    font-size: 2em;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+header > span#burger:hover {
+    background-color: rgb(53, 50, 50);
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    padding: 5px;
+    color: var(--cor3);
+}
+
+header > nav#itens {
+    display: none;
+    background-color: var(--cor1);
+    position: absolute;
+    top: 100%;
+    width: 96.5vw;
+    border: 1px solid var(--cor4);
+}
+
+header > nav#itens > ul > li {
+    font-family: var(--fonte3);
+}
+
+header > nav#itens > ul > li > a > span {
+    font-size: 0.7em;
+}
+
+header > nav#itens > ul > li {
+    color: var(--cor2);
+    font-family: var(--fonte3);
+    padding: 13px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header > nav#itens > ul > li > a:hover {
+    color: var(--cor3);
+}
+
+header > nav#itens > ul > div#linha > * {
+    border-bottom: 1.5px solid rgb(41, 44, 44);
+    border-radius: 5px;
+    width: 95%;
+}
+
+header > nav#itens > ul > div#pesquisa > input[type=text] {
+    width: 360px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
+}
+
+header > nav#itens > ul > div#pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+header > nav#itens > ul > div#pesquisa > button {
+    width: 38px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(85, 82, 82), rgb(71, 68, 68));
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+
+header > nav#itens > ul > div#pesquisa > button > span {
+    display: flex;
+    align-items: center;
+    color: var(--cor2);
+    font-size: 25px;
+}
+
+main > div#imagem > img {
+    width: 100%;
+    height: 60vh;
+}
+
+main > section#inicio > h3, h1 {
+    text-align: center;
+}
+
+main > section#inicio > h3 {
+    font: bold 1.5em var(--fonte1);
+    color: var(--cor4);
+}
+
+main > section#inicio > h1 {
+    font: 3em var(--fonte2);
+    color: var(--cor2);
+}
+
+main > section#inicio > h1 > span#creepypasta {
+    color: var(--cor3);
+}
+
+main > section#inicio > p {
+    font: 1.3em var(--fonte3);
+    color: var(--cor2);
+    padding: 15px;
+}
+
+main > section#inicio > div.botao {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+main > section#inicio > div.botao > button {
+    background-color: var(--cor3);
+    color: var(--cor2);
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 10px;
+    width: 400px;
+    border-radius: 8px;
+    border-color: var(--cor3);
+}
+
+main > section#inicio > div.botao > button:hover {
+    transition: 0.3s;
+    background-color: green;
+    border-color: green;
+    width: 350px;
+    cursor: pointer;
+}
+
+main > section#inicio > div.botao > button > a > span {
+    position: absolute;
+    right: 105px;
+    bottom: -315px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lendas Urbanas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/estilogeral.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>LENDAS-<span id="pasta">URBANAS</span></h1>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="lendasurbanas.html"><span class="material-symbols-outlined">home</span> Início</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="outras-paginas-do-site/todas_as_creepys.html"><span class="material-symbols-outlined">menu_book</span> Creepypastas</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="outras-paginas-do-site/blog.html" target="_self"><span class="material-symbols-outlined">article</span> Blog</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="outras-paginas-do-site/sobre_nos.html" target="_self"><span class="material-symbols-outlined">person</span> Sobre nós</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="outras-paginas-do-site/contato.html" target="_self"><span class="material-symbols-outlined">mail</span> Contato</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <br>
+                
+                <div id="pesquisa">
+                    <button>
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                    <input type="text" name="pesquisa" id="ipesquisa" placeholder="Buscar...">
+                    
+                </div>
+               
+                
+                <!--Área de contatos-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="imagem">
+            <img src="imagens/floresta_creepy.jpg" alt="Floresta assustadora.">
+        </div>
+        <section id="inicio">
+           <h3>HISTÓRIAS QUE NÃO DEVERIAM SER CONTADAS</h3>
+            <h1>BEM-VINDO AO <br>LENDAS-<span id="creepypasta">URBANAS</span></h1>
+            <p>Aqui você encontra as histórias mais assustadoras, pertubadoras e misteriosas do mundo da internet. Prepare-se...<br>Algumas coisas não são apenas ficção.</p>
+            <div class="botao">
+                <button type="button"><a href="todas_as_creepys.html">EXPLORAR HISTÓRIAS  <span class="material-symbols-outlined">arrow_forward</span></a></button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
