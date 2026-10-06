@@ -102,37 +102,44 @@ header > nav#itens > ul > div#linha > * {
     width: 95%;
 }
 
-header > nav#itens > ul > div#pesquisa > input[type=text] {
-    width: 360px;
-    padding: 7px;
+header > nav#itens > div#pesquisa > input[type=text] {
+    width: 90%;
+    padding: 8px;
     border-radius: 8px;
     background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
 }
 
-header > nav#itens > ul > div#pesquisa > input[type=text]:hover {
+header > nav#itens > div#pesquisa > input[type=text]:hover {
     background-color: var(--cor2);
 }
 
-header > nav#itens > ul > div#pesquisa {
+header > nav#itens > div#pesquisa {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 5px;
 }
 
-header > nav#itens > ul > div#pesquisa > button {
-    width: 33px;
+header > nav#itens > div#pesquisa > button {
+    width: 35px;
+    height: 30px;
     text-align: center;
     background-image: linear-gradient(to top, rgb(85, 82, 82), rgb(71, 68, 68));
     border-radius: 10px;
     margin-right: 5px;
 }
 
-header > nav#itens > ul > div#pesquisa > button > span {
+header > nav#itens > div#pesquisa > button > span {
     display: flex;
     align-items: center;
     color: var(--cor2);
     font-size: 20px;
+}
+
+header > nav#itens > div#redes {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
 }
 
 main > div#imagem > img {
