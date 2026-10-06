@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilogeral.css" media="all">
+    <link rel="stylesheet" href="../estilos/fale_conosco.css">
+    <link rel="shortcut icon" href="../imagens/favicon/favicon_caveira.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>LENDAS-<span id="pasta">URBANAS</span></h1>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../lendasurbanas.html"><span class="material-symbols-outlined">home</span> Início</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/todas_as_creepys.html"><span class="material-symbols-outlined">menu_book</span> Creepypastas</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/blog.html" target="_self"><span class="material-symbols-outlined">article</span> Blog</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/sobre_nos.html" target="_self"><span class="material-symbols-outlined">person</span> Sobre nós</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/contato.html" target="_self"><span class="material-symbols-outlined">mail</span> Contato</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+                
+                <div class="pesquisa">
+                    <button>
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                    <input type="text" name="pesquisa" id="ipesquisa" placeholder="Buscar...">
+                </div>
+                
+                <div id="linha">
+                    <div></div>
+                </div>
+                    
+                <div id="redes">  
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <!--Área de contatos-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>CONTATO</h3>
+        <h1>FALE CONOSCO</h1>
+        <p>Tem alguma sugestão, dúvida ou quer entrar em contato? Preencha o formulário abaixo e retornaremos o mais breve possível.</p>
+
+        <section>
+            <form action="cadastro.php" method="post">
+                <div><span class="material-symbols-outlined" id="pessoa">person</span><input type="text" name="nome" id="inome" placeholder="     Nome" min="8" max="50"></div>
+
+                <div><span class="material-symbols-outlined" id="email">mail</span><input type="email" name="email" id="iemail" placeholder="      E-mail" required min="15" max="30"></div>
+
+                <div><span class="material-symbols-outlined" id="msg">chat</span><textarea name="msg" id="imsg" placeholder="   Mensagem... (Opcional)"></textarea></div>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
