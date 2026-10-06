@@ -94,9 +94,9 @@ header > nav#itens > ul > li > a > span {
 header > nav#itens > ul > li {
     color: var(--cor2);
     font-family: var(--fonte3);
-    padding: 85px;
+    padding: 140px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.28em;
 }
 
 header > nav#itens > ul > li > a:hover {
@@ -114,12 +114,12 @@ header > nav#itens > ul > div.pesquisa {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 35px 15px 0px;
+    padding: 15px 0px 15px 0px;
     background-color: var(--cor1);
 }
 
 header > nav#itens > ul > div.pesquisa > input[type=text] {
-    width: 90%;
+    width: 82%;
     padding: 8px;
     border-radius: 8px;
     background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
@@ -128,7 +128,6 @@ header > nav#itens > ul > div.pesquisa > input[type=text] {
 header > nav#itens > ul > div.pesquisa > input[type=text]:hover {
     background-color: var(--cor2);
 }
-
 
 header > nav#itens > ul > div.pesquisa > button {
     width: 35px;

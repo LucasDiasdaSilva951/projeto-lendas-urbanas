@@ -70,12 +70,12 @@ main > section > div.qualidades {
 
 main > section > div > p {
     color: var(--cor2);
-    font-size: 20px;
+    font-size: 23px;
 }
 
 main > section > div.qualidades > p > span {
     color: var(--cor3);
-    font-size: 20px;
+    font-size: 23px;
 }
 
 main > div#casa_assombrada_img {
