@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Arimo";
+    src: url("../fontes/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fontes/BLOODY.TTF");
+}
+
+:root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: Arial, Helvetica, sans-serif;
+
+    --cor1: black;
+    --cor2: white;
+    --cor3: red;
+    --cor4: gray;
+    --cor5: rgba(255, 255, 255, 0.521);
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(2, 2, 5);
+}
+
+main > h3 {
+    color: var(--cor5);
+    font-family: var(--fonte3);
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+}
+
+main > h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--cor3);
+    font-family: var(--fonte1);
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+}
+
+main > p, main > section > div > p {
+    color: var(--cor2);
+    font: 24px var(--fonte3);
+    word-spacing: 2px;
+    padding: 15px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+main > section > div.qualidades {
+    background-color: rgb(53, 51, 51);
+    border: 1.5px solid darkslategrey;
+}
+
+main > section > div > p {
+    color: var(--cor2);
+    font-size: 20px;
+}
+
+main > section > div.qualidades > p > span {
+    color: var(--cor3);
+    font-size: 20px;
+}
+
+main > div#casa_assombrada_img {
+    padding: 15px;
+}
+
+main > div#casa_assombrada_img > img {
+    height: 300px;
+    width: 100%;
+}

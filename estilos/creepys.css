@@ -101,8 +101,7 @@ main > div#listacreepy > div.creepys:hover {
 main > div#listacreepy > div.creepys > h1, p {
     display: flex;
     justify-content: flex-start;
-    padding: 8px;
-    margin: 10px;
+    padding: 3px;
     width: 50%;
     color: var(--cor5);
     font-family: var(--fonte3);
@@ -113,14 +112,15 @@ main > div#listacreepy > div.creepys > a {
     color: var(--cor2);
     font-weight: bolder;
     font-family: var(--fonte1);
-    padding: 6px;
-    margin: 70px;
+    padding: 5px;
+    margin: 60px;
     border: 1px solid var(--cor5);
     border-radius: 8px;
     width: 400px;
 }
 
 main > div#listacreepy > div.creepys > a:hover {
+    transition: 0.2s;
     background-color: rgb(77, 60, 60);
     cursor: pointer;
 }

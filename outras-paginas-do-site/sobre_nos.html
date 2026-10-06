@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../estilos/estilogeral.css" media="all">
+    <link rel="stylesheet" href="../estilos/quem_somos.css">
+    <link rel="shortcut icon" href="../imagens/favicon/favicon_caveira.png" type="image/x-icon">
+</head>
+<body>
+     <header>
+        <h1>LENDAS-<span id="pasta">URBANAS</span></h1>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../lendasurbanas.html"><span class="material-symbols-outlined">home</span> Início</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/todas_as_creepys.html"><span class="material-symbols-outlined">menu_book</span> Creepypastas</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/blog.html" target="_self"><span class="material-symbols-outlined">article</span> Blog</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/sobre_nos.html" target="_self"><span class="material-symbols-outlined">person</span> Sobre nós</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+
+                <li><a href="../outras-paginas-do-site/contato.html" target="_self"><span class="material-symbols-outlined">mail</span> Contato</a></li>
+
+                <div id="linha">
+                    <div></div>
+                </div>
+                
+                <div class="pesquisa">
+                    <button>
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                    <input type="text" name="pesquisa" id="ipesquisa" placeholder="Buscar...">
+                </div>
+                
+                <div id="linha">
+                    <div></div>
+                </div>
+                    
+                <div id="redes">  
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <!--Área de contatos-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h3>SOBRE NÓS</h3>
+        <h1>QUEM SOMOS</h1>
+        
+        <p>É um projeto feito por fãs, para fãs. O meu objetivo é reunir as melhores creepypastas da internet em um só lugar, com um layout simples, organizado e fácil de navegar.</p>
+
+        <section>
+            <div class="qualidades">
+                <p><span class="material-symbols-outlined">menu_book</span> Histórias reais
+                <br>
+                (ou quase)
+                </p>
+            </div>
+            <div class="qualidades">
+                <p><span class="material-symbols-outlined">shield</span> Conteúdo para maiores de 16 anos</p>
+            </div>
+            <div class="qualidades">
+                <p><span class="material-symbols-outlined">heart_smile</span> Feito com muito respeito para os fãs</p>
+            </div>
+        </section>
+
+        <div id="casa_assombrada_img">
+          <img src="../imagens/casa_assombrada.jpg" alt="Casa Assombrada">  
+        </div>
+        
+    </main>
+
+     <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
