@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Arimo";
+    src: url("../fontes/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fontes/BLOODY.TTF");
+}
+
+:root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: Arial, Helvetica, sans-serif;
+
+    --cor1: black;
+    --cor2: white;
+    --cor3: red;
+    --cor4: gray;
+    --cor5: rgba(255, 255, 255, 0.521);
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(2, 2, 5);
+}
+
+main > h3 {
+    padding: 10px;
+    font: 38px var(--fonte1);
+    color: var(--cor5);
+    display: flex;
+    justify-content: center;
+}
+
+main > h3 > span {
+    padding: 10px;
+    font: 28px var(--fonte2);
+    color: var(--cor3);
+}
+
+main > div.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px;
+}
+
+main > div.pesquisa > input[type=text] {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
+}
+
+main > div.pesquisa > input[type=text]:hover {
+    background-color: var(--cor2);
+}
+
+main > div.pesquisa > button {
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(85, 82, 82), rgb(71, 68, 68));
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+main > div.pesquisa > button > span {
+    display: flex;
+    align-items: center;
+    color: var(--cor2);
+    font-size: 20px;
+}
+
+main > div#listacreepy {
+    display: flex;
+    flex-direction: column;
+}
+
+main > div#listacreepy > div.creepys {
+    padding: 20px;
+    margin: 20px 20px 15px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--cor5);
+    background-color: rgb(12, 11, 11);
+}
+
+main > div#listacreepy > div.creepys:hover {
+    background-color: rgb(5, 8, 7);
+}
+
+main > div#listacreepy > div.creepys > h1, p {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    margin: 10px;
+    width: 50%;
+    color: var(--cor5);
+    font-family: var(--fonte3);
+}
+
+main > div#listacreepy > div.creepys > a {
+    background-color: darkslategrey;
+    color: var(--cor2);
+    font-weight: bolder;
+    font-family: var(--fonte1);
+    padding: 6px;
+    margin: 70px;
+    border: 1px solid var(--cor5);
+    border-radius: 8px;
+    width: 400px;
+}
+
+main > div#listacreepy > div.creepys > a:hover {
+    background-color: rgb(77, 60, 60);
+    cursor: pointer;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy > img {
+    height: 130px;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy > img#smiledog {
+    position: absolute;
+    top: -170px;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy > img#slenderman {
+    position: absolute;
+    top: -160px;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy > img#jeff {
+    position: absolute;
+    top: -180px;
+    height: 140px;
+}
+
+main > div#listacreepy > div.creepys > div.imagemcreepy > img#therake {
+    position: absolute;
+    top: -160px;
+}

@@ -32,6 +32,8 @@ header {
     flex-direction: row;
     border-bottom: 1px solid var(--cor4);
     position: relative;
+    z-index: 10000;
+    overflow: visible;
 }
 
 header > h1 {
@@ -67,17 +69,22 @@ header > span#burger:hover {
 }
 
 header > nav#itens {
-    display: none;
-    background-color: var(--cor1);
     position: absolute;
     top: 100%;
-    width: 96.5vw;
-    border: 1px solid var(--cor4);
+    width: 100%;
+    min-height: calc(100vh - 100%);
+    padding-top: 16px;
+    display: none;
+    background-color: var(--cor1)!important;  
+    border-top: 1px solid var(--cor4);
+    border-bottom: 1px solid var(--cor4);
+    z-index: 9999;
 }
 
 header > nav#itens > ul > li {
     font-family: var(--fonte3);
     transition: 0.2s;
+    background-color: var(--cor1);
 }
 
 header > nav#itens > ul > li > a > span {
@@ -87,12 +94,13 @@ header > nav#itens > ul > li > a > span {
 header > nav#itens > ul > li {
     color: var(--cor2);
     font-family: var(--fonte3);
-    padding: 11px;
+    padding: 85px;
     text-align: center;
     font-size: 1.5em;
 }
 
 header > nav#itens > ul > li > a:hover {
+    transition: 0.2s;
     color: var(--cor3);
 }
 
@@ -102,25 +110,27 @@ header > nav#itens > ul > div#linha > * {
     width: 95%;
 }
 
-header > nav#itens > div#pesquisa > input[type=text] {
+header > nav#itens > ul > div.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 35px 15px 0px;
+    background-color: var(--cor1);
+}
+
+header > nav#itens > ul > div.pesquisa > input[type=text] {
     width: 90%;
     padding: 8px;
     border-radius: 8px;
     background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
 }
 
-header > nav#itens > div#pesquisa > input[type=text]:hover {
+header > nav#itens > ul > div.pesquisa > input[type=text]:hover {
     background-color: var(--cor2);
 }
 
-header > nav#itens > div#pesquisa {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px;
-}
 
-header > nav#itens > div#pesquisa > button {
+header > nav#itens > ul > div.pesquisa > button {
     width: 35px;
     height: 30px;
     text-align: center;
@@ -129,17 +139,30 @@ header > nav#itens > div#pesquisa > button {
     margin-right: 5px;
 }
 
-header > nav#itens > div#pesquisa > button > span {
+header > nav#itens > ul > div.pesquisa > button > span {
     display: flex;
     align-items: center;
     color: var(--cor2);
     font-size: 20px;
 }
 
-header > nav#itens > div#redes {
+header > nav#itens > ul > div#redes {
     display: flex;
     flex-direction: row;
-    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;
+    color: var(--cor2);
+}
+
+header > nav#itens > ul > div#redes > a > i {
+    height: 30px;
+    padding-inline: 10px;
+}
+
+header > nav#itens > ul > div#redes > a > i:hover {
+    transition: 0.2s;
+    color: var(--cor3);
 }
 
 main > div#imagem > img {
