@@ -56,6 +56,7 @@ header > span#burger {
 }
 
 header > span#burger:hover {
+    transition: 0.2s;
     background-color: rgb(53, 50, 50);
     border-radius: 50%;
     position: absolute;
@@ -76,6 +77,7 @@ header > nav#itens {
 
 header > nav#itens > ul > li {
     font-family: var(--fonte3);
+    transition: 0.2s;
 }
 
 header > nav#itens > ul > li > a > span {
@@ -85,7 +87,7 @@ header > nav#itens > ul > li > a > span {
 header > nav#itens > ul > li {
     color: var(--cor2);
     font-family: var(--fonte3);
-    padding: 13px;
+    padding: 11px;
     text-align: center;
     font-size: 1.5em;
 }
@@ -107,6 +109,10 @@ header > nav#itens > ul > div#pesquisa > input[type=text] {
     background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
 }
 
+header > nav#itens > ul > div#pesquisa > input[type=text]:hover {
+    background-color: var(--cor2);
+}
+
 header > nav#itens > ul > div#pesquisa {
     display: flex;
     flex-direction: row;
@@ -115,19 +121,18 @@ header > nav#itens > ul > div#pesquisa {
 }
 
 header > nav#itens > ul > div#pesquisa > button {
-    width: 38px;
+    width: 33px;
     text-align: center;
     background-image: linear-gradient(to top, rgb(85, 82, 82), rgb(71, 68, 68));
     border-radius: 10px;
     margin-right: 5px;
 }
 
-
 header > nav#itens > ul > div#pesquisa > button > span {
     display: flex;
     align-items: center;
     color: var(--cor2);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 main > div#imagem > img {
@@ -168,12 +173,13 @@ main > section#inicio > div.botao {
 main > section#inicio > div.botao > button {
     background-color: var(--cor3);
     color: var(--cor2);
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bolder;
     padding: 10px;
     width: 400px;
     border-radius: 8px;
     border-color: var(--cor3);
+    position: relative;
 }
 
 main > section#inicio > div.botao > button:hover {
@@ -186,10 +192,15 @@ main > section#inicio > div.botao > button:hover {
 
 main > section#inicio > div.botao > button > a > span {
     position: absolute;
-    right: 105px;
-    bottom: -315px;
-    font-size: 24px;
+    right: 3px;
+    bottom: -3px;
+    font-size: 25x;
     font-weight: bolder;
+    padding-left: 5px;
+}
+
+main > section#inicio > div.botao > button > a > span {
+    position: relative;
 }
 
 ul {
