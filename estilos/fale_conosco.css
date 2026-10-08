@@ -58,50 +58,88 @@ main > p {
     padding: 15px 15px 0px 15px;
 }
 
+main > section {
+    width: 100%;
+}
+
 main > section > form {
     display: flex;
     flex-direction: column;
+    border: 1px solid var(--cor4);
+}
+
+main > section > form > h2, p#legendanoform {
+    color: var(--cor2);
+    font: bolder 1.3em var(--fonte3);
+    text-align: center;
+    background-color: rgb(53, 51, 51);
+    margin: 0px;
+    padding: 15px;
 }
 
 main > section > form > div {
-    padding: 30px;
+    padding: 10px;
     background-color: rgb(53, 51, 51);
-    padding: 15px;
-    position: relative;
-    width: 95%;
 }
 
-main > section > form > div > span#pessoa {
-    position: absolute;
-    top: 23px;
-    right: 32px;
-}
-
-main > section > form > div > span#email {
-    position: absolute;
-    top: 23px;
-    right: 30px;
-}
-
-main > section > form > div > span#msg {
-    position: absolute;
-    top: 23px;
-    right: 30px;
+main > section > form > div > p {
+    margin: 0px;
+    font-family: var(--fonte3);
+    font-weight: bolder;
+    color: rgb(12, 12, 12);
 }
 
 main > section > form > div > * {
     display: flex;
     align-items: center;
-    color: var(--cor2);
+}
+
+main > section > form > div > input {
+    padding: 20px;
+    margin-top: 0px;
     width: 90%;
-}
-
-main > section > form > div > input[type=submit] {
-    width: 92%;
-    padding: 15px;
-}
-
-main > section > form > div > input, textarea {
-    padding: 10px;
     background-color: rgb(5, 8, 7);
+    text-indent: 20px;
+    color: darkslategrey;
+    border: 1px solid var(--cor4);
+} 
+
+main > section > form > div > textarea {
+    padding: 20px;
+    width: 90%;
+    background-color:rgb(5, 8, 7);
+    text-indent: 15px;
+    border: 1px solid var(--cor4);
+}
+
+main > section > form > div > input:focus-within, textarea:focus-within {
+    background-color: var(--cor2);
+    transition: 0.3s; 
+}
+
+main > section > form > div > label > span {
+    transform: translate(8px, 40px);
+    color: rgb(87, 26, 26);
+    padding: 0px;
+}
+
+main > section > form > div > label > span#campomsg {
+    transform: translate(8px, 48px);
+}
+
+main > section > form > div > label > span:focus-within {
+    color: greenyellow;
+}
+
+main > section > form > input[type=submit]#enviar {
+    padding: 20px;
+    font: bolder 2em var(--fonte3);
+    color: var(--cor2);
+    background-color: var(--cor3);
+}
+
+main > section > form > input[type=submit]#enviar:hover {
+    transition: 0.3s;
+    background-color: darkred;
+    cursor: pointer;
 }

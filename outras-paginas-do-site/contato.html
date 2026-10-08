@@ -78,15 +78,34 @@
         <p>Tem alguma sugestão, dúvida ou quer entrar em contato? Preencha o formulário abaixo e retornaremos o mais breve possível.</p>
 
         <section>
-            <form action="cadastro.php" method="post">
-                <div><span class="material-symbols-outlined" id="pessoa">person</span><input type="text" name="nome" id="inome" placeholder="     Nome" min="8" max="50"></div>
+                <form action="cadastro.php" method="post">
 
-                <div><span class="material-symbols-outlined" id="email">mail</span><input type="email" name="email" id="iemail" placeholder="      E-mail" required min="15" max="30"></div>
+                    <h2>FALE CONOSCO AQUI!</h2>
+                    <p id="legendanoform">Preencha esse formulário de Login e responderemos o mais breve possível!</p>
 
-                <div><span class="material-symbols-outlined" id="msg">chat</span><textarea name="msg" id="imsg" placeholder="   Mensagem... (Opcional)"></textarea></div>
-
-                <input type="submit" value="Enviar">
-            </form>
+                    <div>
+                        <p>Seu nome completo:</p>
+                        <label for="inome">
+                            <span class="material-symbols-outlined">person</span>
+                        </label>
+                        <input type="text" name="nome" id="inome" placeholder="Nome" required ="8" max="50">
+                    </div>
+                    <div>
+                        <p>Seu e-mail:</p>
+                        <label for="iemail">
+                            <span class="material-symbols-outlined">mail</span>
+                        </label>
+                        <input type="email" name="email" id="iemail" placeholder="E-mail" required min="15" max="30">
+                    </div>
+                    <div>
+                        <p>Envie uma mensagem no campo abaixo:</p>
+                        <label for="imsg">
+                            <span class="material-symbols-outlined" id="campomsg">chat</span>
+                        </label>
+                        <textarea name="msg" id="imsg" placeholder="Mensagem... (Opcional)"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" id="enviar" title="Deseja enviar?">
+                </form>
         </section>
     </main>
     <script>
