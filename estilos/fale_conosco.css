@@ -78,7 +78,7 @@ main > section > form > h2, p#legendanoform {
 }
 
 main > section > form > div {
-    padding: 5px;
+    padding: 20px;
     background-color: rgb(53, 51, 51);
 }
 
@@ -97,7 +97,7 @@ main > section > form > div > * {
 main > section > form > div > input {
     padding: 20px;
     margin-top: 0px;
-    width: 90%;
+    width: 91%;
     background-color: rgb(5, 8, 7);
     text-indent: 20px;
     color: darkslategrey;
@@ -106,7 +106,7 @@ main > section > form > div > input {
 
 main > section > form > div > textarea {
     padding: 20px;
-    width: 90%;
+    width: 91%;
     background-color:rgb(5, 8, 7);
     text-indent: 15px;
     border: 1px solid var(--cor4);
@@ -135,7 +135,7 @@ main > section > form > input[type=submit]#enviar {
     padding: 20px;
     font: bolder 2em var(--fonte3);
     color: var(--cor2);
-    background-color: var(--cor3);
+    background-color:  brown;
 }
 
 main > section > form > input[type=submit]#enviar:hover {
