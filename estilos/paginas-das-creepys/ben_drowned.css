@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Arimo";
+    src: url("../fontes/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fontes/BLOODY.TTF");
+}
+
+:root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: Arial, Helvetica, sans-serif;
+
+    --cor1: black;
+    --cor2: white;
+    --cor3: red;
+    --cor4: gray;
+}

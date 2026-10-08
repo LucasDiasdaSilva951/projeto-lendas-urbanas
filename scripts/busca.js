@@ -1,11 +1,11 @@
 const campos = document.querySelectorAll(".ipesquisa");
 const lupas = document.querySelectorAll(".lupa");
 
+// Identifica a raiz do projeto
 const caminhoAtual = window.location.pathname;
 const marcador = "/outras-paginas-do-site/";
 const indice = caminhoAtual.indexOf(marcador);
 
-// Identifica a raiz do projeto
 let raiz;
 
 if (indice !== -1) {
@@ -20,17 +20,17 @@ if (indice !== -1) {
 // Redireciona para a página da creepypasta
 function abrirCreepy(arquivo) {
     window.location.href =
-        raiz + "outras-paginas-do-site/creepypastas/" + arquivo;
+        raiz + "outras-paginas-do-site/" + arquivo;
 }
 
-// Executa a busca usando o campo correspondente
+// Executa a busca
 function buscarCreepy(campo) {
     const nome = campo.value
         .trim()
         .toLowerCase()
         .replace(/\s/g, "");
 
-    // Limpa o campo após capturar o texto
+    // Limpa o campo de pesquisa
     campo.value = "";
 
     if (nome === "") {
@@ -45,7 +45,7 @@ function buscarCreepy(campo) {
     } else if (nome === "smiledog" || nome === "dog") {
         abrirCreepy("smile_dog.html");
 
-    } else if (nome === "therake") {
+    } else if (nome === "therake" || nome === "rake") {
         abrirCreepy("the_rake.html");
 
     } else if (nome === "tailsdoll" || nome === "tails") {
@@ -66,13 +66,17 @@ function buscarCreepy(campo) {
 lupas.forEach(function(lupa) {
     lupa.addEventListener("click", function() {
         const pesquisa = lupa.closest(".pesquisa");
-        const campo = pesquisa.querySelector(".ipesquisa");
+        const campo = pesquisa?.querySelector(".ipesquisa");
 
-        buscarCreepy(campo);
+        if (campo) {
+            buscarCreepy(campo);
+        } else {
+            console.error("Campo de pesquisa não encontrado.");
+        }
     });
 });
 
-// Ativa o Enter em todos os campos
+// Ativa a tecla Enter em todos os campos
 campos.forEach(function(campo) {
     campo.addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
