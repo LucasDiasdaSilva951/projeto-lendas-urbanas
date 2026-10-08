@@ -78,12 +78,12 @@ main > section > form > h2, p#legendanoform {
 }
 
 main > section > form > div {
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(53, 51, 51);
 }
 
-main > section > form > div > p {
-    margin: 0px;
+main > section > form > div > legend {
+    padding-top: 15px;
     font-family: var(--fonte3);
     font-weight: bolder;
     color: rgb(12, 12, 12);
