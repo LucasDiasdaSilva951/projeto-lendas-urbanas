@@ -122,11 +122,12 @@ header > nav#itens > ul > div.pesquisa > input[type=text] {
     width: 82%;
     padding: 8px;
     border-radius: 8px;
-    background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
+    background-color: var(--cor2);
 }
 
 header > nav#itens > ul > div.pesquisa > input[type=text]:hover {
-    background-color: var(--cor2);
+    transition: 0.2s;
+    background-color: whitesmoke;
 }
 
 header > nav#itens > ul > div.pesquisa > button {

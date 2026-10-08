@@ -47,41 +47,6 @@ main > h3 > span {
     color: var(--cor3);
 }
 
-main > div.pesquisa {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 45px;
-}
-
-main > div.pesquisa > input[type=text] {
-    width: 90%;
-    padding: 8px;
-    border-radius: 8px;
-    background-color: linear-gradient(to left, var(--cor2), rgb(71, 68, 68));
-}
-
-main > div.pesquisa > input[type=text]:hover {
-    transition: 0.2s;
-    background-color: var(--cor2);
-}
-
-main > div.pesquisa > button {
-    width: 35px;
-    height: 30px;
-    text-align: center;
-    background-image: linear-gradient(to top, rgb(85, 82, 82), rgb(71, 68, 68));
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
-main > div.pesquisa > button > span {
-    display: flex;
-    align-items: center;
-    color: var(--cor2);
-    font-size: 20px;
-}
-
 main > section > div#listacreepy {
     display: flex;
     flex-direction: column;
