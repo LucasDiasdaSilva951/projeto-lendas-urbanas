@@ -55,7 +55,7 @@ main > section > div > h3 > span {
 }
 
 main > section > div > h1, h2 {
-    font: lighter 60px var(--fonte2);
+    font: lighter 50px var(--fonte2);
     color: var(--cor2);  
     text-align: start;
     padding-left: 5px;
