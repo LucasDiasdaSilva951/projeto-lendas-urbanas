@@ -86,9 +86,8 @@ main > section > div.imagens > img#lavender {
 main > section > a {
     background-color: rgb(66, 145, 145);
     color: var(--cor2);
-    font-weight: bolder;
-    font-family: var(--fonte1);
-    padding: 8px;
+    font: bolder 16px var(--fonte1);
+    padding: 20px;
     margin: 0px 50px;
     border: 1px solid var(--cor5);
     border-radius: 8px;
