@@ -72,7 +72,6 @@ header > nav#itens {
     position: absolute;
     top: 100%;
     width: 100%;
-    min-height: calc(100vh - 100%);
     padding-top: 16px;
     display: none;
     background-color: var(--cor1)!important;  
@@ -82,21 +81,17 @@ header > nav#itens {
 }
 
 header > nav#itens > ul > li {
-    font-family: var(--fonte3);
+    font: 1.28em var(--fonte1);
     transition: 0.2s;
     background-color: var(--cor1);
+    color: var(--cor2);
+    font-family: var(--fonte1);
+    padding: 7.25px 10px;
+    text-align: center;
 }
 
 header > nav#itens > ul > li > a > span {
     font-size: 0.7em;
-}
-
-header > nav#itens > ul > li {
-    color: var(--cor2);
-    font-family: var(--fonte3);
-    padding: 140px;
-    text-align: center;
-    font-size: 1.28em;
 }
 
 header > nav#itens > ul > li > a:hover {
@@ -114,7 +109,7 @@ header > nav#itens > ul > div.pesquisa {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 0px 15px 0px;
+    padding: 8px 0;
     background-color: var(--cor1);
 }
 
@@ -151,7 +146,7 @@ header > nav#itens > ul > div#redes {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 30px 30px 0px 30px;
+    padding: 15px;
     color: var(--cor2);
 }
 

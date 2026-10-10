@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Arimo";
+    src: url("../fontes/Arimo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fontes/BLOODY.TTF");
+}
+
+@font-face {
+    font-family: "Undisclose";
+    src: url("../fontes/Undisclose.otf");
+}
+
+:root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: "Undisclose";
+    --fonte4: Arial, Helvetica, sans-serif;
+
+    --cor1: black;
+    --cor2: white;
+    --cor3: red;
+    --cor4: gray;
+}
+
+header > nav#itens > * {
+    font-size: 1em;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+main > img {
+    width: 100%;
+    height: 50px;
+}
+
+main > section > div > h3 {
+    font: bolder 35px var(--fonte1);
+    color: var(--cor3);
+}
+
+main > section > div > h3 > span {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: linear-gradient(black, black) padding-box, linear-gradient(to bottom, #8b0000, red, #300000) border-box;
+    padding: 5px;
+}
+
+main > section > div > h1, h2 {
+    font: lighter 55px var(--fonte2);
+    color: var(--cor2);  
+    text-align: start;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+main > section > div > h2 {
+    color: var(--cor3);
+}
+
+main > section > div > h1 > span {
+    color: var(--cor3);
+}
+
+main > section > div.paragrafo, ul {
+    font: 25px var(--fonte4);
+    color: var(--cor2);
+    margin: 10px;
+}
+
+main > section > div.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+}
+
+main > section > div.imagens > img {
+    height: 300px;
+    width: 430px;
+}
+
+main > section > div.imagens > img.borda {
+    height: 430px;
+    width: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section > ul {
+    list-style: disc;
+    gap: 10px;
+}
+
+main > section > ul > li::marker {
+    color: var(--cor3);
+}
+
+footer {
+    position: relative;
+}
+
+footer > a > p#seta {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    color: var(--cor3);
+    font: 2em var(--fonte2);
+    padding: 15px;
+}
+
+footer > a > p#seta:hover {
+    transition: 0.2s;
+    color: var(--cor4);
+}
+
+footer > a > p#seta > span {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+footer > div {
+    text-decoration: none;
+    position: absolute;
+    top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    right: 30px;
+    color: var(--cor2);
+    font: 1.7em var(--fonte2);
+}
+
+footer > div span {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+footer > img {
+    width: 100%;
+    height: 50px;
+}
