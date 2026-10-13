@@ -21,6 +21,10 @@
     --cor4: gray;
 }
 
+p, h1, h2, h3, h4 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+
 body, html {
     background-color: var(--cor1);
     margin: 0px;
@@ -165,6 +169,10 @@ main > div#imagem > img {
     height: 60vh;
 }
 
+main > section#inicio {
+    background-image: url("../imagens/nevoa.png");
+}
+
 main > section#inicio > h3, h1 {
     text-align: center;
 }
@@ -203,14 +211,14 @@ main > section#inicio > div.botao > button {
     padding: 10px;
     width: 400px;
     border-radius: 8px;
-    border-color: var(--cor3);
+    border: 3px solid rgb(100, 90, 85);
     position: relative;
 }
 
 main > section#inicio > div.botao > button:hover {
     transition: 0.3s;
     background-color: green;
-    border-color: green;
+    border: 2.5px solid rgb(121, 211, 121);
     width: 350px;
     cursor: pointer;
 }
