@@ -12,7 +12,7 @@
     }
 
     header > nav#itens {
-        border: none;
+        border-top: none;
         background-color: none;
     }
 
