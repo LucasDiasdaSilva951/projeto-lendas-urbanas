@@ -25,7 +25,7 @@
     }
 
     header > h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     header > nav#itens {
@@ -44,7 +44,7 @@
     header > nav#itens > ul > li#inicio {
         background-color: transparent;
         position: absolute;
-        top: -90px;
+        top: -105px;
         right: 610px;
         font-size: 25px;
     }
@@ -52,7 +52,7 @@
     header > nav#itens > ul > li#creepypasta {
         background-color: transparent;
         position: absolute;
-        top: -90px;
+        top: -105px;
         right: 410px;
         font-size: 25px;
     }
@@ -60,7 +60,7 @@
     header > nav#itens > ul > li#blog {
         background-color: transparent;
         position: absolute;
-        top: -90px;
+        top: -105px;
         right: 320px;
         font-size: 25px;
     }
@@ -68,16 +68,16 @@
     header > nav#itens > ul > li#sobre_nos {
         background-color: transparent;
         position: absolute;
-        top: -90px;
-        right: 160px;
+        top: -105px;
+        right: 165px;
         font-size: 25px;
     }
 
     header > nav#itens > ul > li#contato {
         background-color: transparent;
         position: absolute;
-        top: -90px;
-        right: 25px;
+        top: -105px;
+        right: 35px;
         font-size: 25px;
     }
 

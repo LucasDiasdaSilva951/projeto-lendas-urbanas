@@ -44,9 +44,10 @@
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#smiledog {
         position: absolute;
-        top: -240px;
+        top: -235px;
         right: 15px;
-        height: 250px;
+        height: 200px;
+        padding: 15px;
     }  
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#slenderman {
