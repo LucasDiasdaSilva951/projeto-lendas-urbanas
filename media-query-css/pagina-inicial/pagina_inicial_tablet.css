@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("../pagina-inicial/pagina_inicial_tablet.css");
+
 @media (min-width: 801px) and (max-width: 1024px) {
     body, html {
         float: right;

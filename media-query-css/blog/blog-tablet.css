@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+@import url("../pagina-inicial/pagina_inicial_tablet.css");
+
+@media (min-width: 668px) {
+
+    main > section {
+        padding: 40px;
+        position: relative;
+    }
+
+    main > section > h4 {
+        font-size: 25px;
+    }
+
+    main > section > p {
+        font-size: 30px;
+    }
+
+    main > section > div.imagens > img#ben {
+        position: absolute;
+        height: 200px;
+        top: -200px;
+        width: 175px;
+    }
+
+    main > section > div.imagens > img#tails {
+        position: absolute;
+        height: 200px;
+        top: -215px;
+    }
+
+    main > section > div.imagens > img#lavender {
+        position: absolute;
+        height: 130px;
+        top: -150px;
+    }
+}

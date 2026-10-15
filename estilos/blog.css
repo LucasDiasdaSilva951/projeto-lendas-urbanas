@@ -29,7 +29,7 @@ body, html {
 
 main {
     margin: 0px;
-    padding: 0px;
+    padding: 110px 0px 0px 0px;
     background-color: rgb(2, 2, 5);
 }
 
@@ -68,6 +68,7 @@ main > section > div.imagens {
 
 main > section > div.imagens > img {
     height: 100px;
+    border: 2px solid var(--cor2);
 }
 
 main > section > div.imagens > img#ben, img#tails {
@@ -87,7 +88,7 @@ main > section > a {
     background-color: rgb(66, 145, 145);
     color: var(--cor2);
     font: bolder 16px var(--fonte1);
-    padding: 20px;
+    padding: 10px;
     margin: 0px 50px;
     border: 1px solid var(--cor5);
     border-radius: 8px;
