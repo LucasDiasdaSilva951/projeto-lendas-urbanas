@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url("../pagina-inicial/pagina_inicial_tablet.css");
+
+@media (min-width: 801px) {
+    main {
+        padding-top: 110px;
+    }
+}
+
+@media (min-width: 668px) {
+    main > section > form > div > input {
+        width: 95%;
+    }
+
+    main > section > form > div > textarea {
+        width: 95%;
+    }
+}

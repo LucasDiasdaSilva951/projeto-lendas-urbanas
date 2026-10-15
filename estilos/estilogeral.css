@@ -46,8 +46,9 @@ header {
 
 header > h1 {
     color: var(--cor2);
-    font-family: var(--fonte2);
+    font: 28px var(--fonte2);
     padding: 15px;
+
 }
 
 header > h1 > span#pasta {
@@ -60,7 +61,7 @@ header > span#burger {
     display: block;
     position: absolute;
     right: 20px;
-    top: 30px;
+    top: 27px;
     padding: 5px;
     cursor: pointer;
 }
@@ -71,7 +72,7 @@ header > span#burger:hover {
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: 30px;
+    top: 27px;
     padding: 5px;
     color: var(--cor3);
 }

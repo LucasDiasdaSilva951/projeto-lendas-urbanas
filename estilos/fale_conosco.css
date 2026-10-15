@@ -86,7 +86,7 @@ main > section > form > div > legend {
     padding-top: 15px;
     font-family: var(--fonte3);
     font-weight: bolder;
-    color: rgb(12, 12, 12);
+    color: rgb(2, 1, 1);
 }
 
 main > section > form > div > * {
