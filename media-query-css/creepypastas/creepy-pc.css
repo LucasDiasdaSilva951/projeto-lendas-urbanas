@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     header > nav#itens {
         border-bottom: 1px solid gray;
     }
@@ -15,7 +15,7 @@
     }
 
     main > section > div#listacreepy > div.creepys {
-        padding: 50px;
+        padding: 30px;
         margin: 20px 20px 15px 20px;
         border-radius: 10px;
         border: 1px solid var(--cor5);
@@ -35,207 +35,57 @@
         color: var(--cor5);
         font-family: var(--fonte3);
     }
-
-    main > section > div#listacreepy > div.creepys > a#smile_dog {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -15px;
-        left: -10px;
-        width: 90%;
-    }
-
-    main > section > div#listacreepy > div.creepys > a#slenderman {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -295px;
-        left: -10px;
-        width: 90%;
-    }
-
-    main > section > div#listacreepy > div.creepys > a#jeff_tk {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -595px;
-        left: -10px;
-        width: 90%;
-    }
-
-    main > section > div#listacreepy > div.creepys > a#the_rake {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -875px;
-        left: -10px;
-        width: 90%;
-    }
-
-    main > section > div#listacreepy > div.creepys > a#ben_drowned {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -1205px;
-        left: -10px;
-        width: 90%;
-    }
     
-    main > section > div#listacreepy > div.creepys > a#tails_doll {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -1545px;
-        left: -10px;
-        width: 90%;
+    main > section > div#listacreepy > div.creepys > p {
+        font-size: 30px;
     }
-
-    main > section > div#listacreepy > div.creepys > a#lavender_town {
-        background-color: darkslategrey;
-        color: var(--cor2);
-        font: bolder 15px var(--fonte1);
-        padding: 5px;
-        margin: 0px 60px;
-        border: 1px solid var(--cor5);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        bottom: -1880px;
-        left: -10px;
-        width: 90%;
-    }
-
-    main > section > div#listacreepy > div.creepys > a#smile_dog:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#slenderman:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#jeff_tk:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#the_rake:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#ben_drowned:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#tails_doll:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
-
-    main > section > div#listacreepy > div.creepys > a#lavender_town:hover {
-    transition: 0.2s;
-    background-color: rgb(77, 60, 60);
-    }   
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#smiledog {
         position: absolute;
-        top: -185px;
-        height: 180px;
-        width: 310px;
+        top: -240px;
+        right: 15px;
+        height: 250px;
     }  
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#slenderman {
         position: absolute;
-        top: -185px;
-        height: 190px;
-        width: 350px;
+        top: -245px;
+        height: 255px;
+        width: 200px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#jeff {
         position: absolute;
-        top: -195px;
-        height: 195px;
-        width: 370px;
+        top: -290px;
+        height: 280px;
+        width: 280px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#therake {
         position: absolute;
-        top: -183px;
-        height: 185px;
-        width: 420px;
+        top: -240px;
+        height: 240px;
+        width: 240px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#ben {
         position: absolute;
-        top: -235px;
-        height: 230px;
-        width: 380px;
+        top: -345px;
+        height: 300px;
+        width: 280px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#tails {
         position: absolute;
-        top: -235px;
-        height: 230px;
-        width: 420px;
+        top: -340px;
+        height: 300px;
+        width: 300px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#lavender {
         position: absolute;
-        top: -235px;
-        height: 235px;
-        width: 420px;
-    } 
+        top: -365px;
+        height: 305px;
+        width: 300px;
+    }
 }

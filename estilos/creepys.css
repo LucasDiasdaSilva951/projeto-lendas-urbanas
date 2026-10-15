@@ -101,11 +101,12 @@ main > section > div#listacreepy > div.creepys > div.imagemcreepy {
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img {
     height: 130px;
     position: relative;
+    border: 2px solid var(--cor2);
 }
 
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#smiledog {
     position: absolute;
-    top: -170px;
+    top: -155px;
 }
 
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#slenderman {
@@ -121,13 +122,13 @@ main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#jeff {
 
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#therake {
     position: absolute;
-    top: -180px;
-    height: 160px;
+    top: -163px;
+    height: 150px;
 }
 
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#ben {
     position: absolute;
-    top: -250px;
+    top: -230px;
     height: 160px;
 }
 
@@ -139,7 +140,7 @@ main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#tails {
 
 main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#lavender {
     position: absolute;
-    top: -220px;
+    top: -215px;
     height: 180px;
     width: 150px;
 }

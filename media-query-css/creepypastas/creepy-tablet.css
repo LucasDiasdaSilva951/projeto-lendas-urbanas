@@ -1,54 +1,66 @@
 @charset "UTF-8";
-@media (min-width: 801px) and (max-width: 1024px) {
+@media (min-width: 801px) {
+    header > nav#itens {
+        border-bottom: 1px solid gray;
+    }
+
   main {
     padding-top: 110px;
     }
 
+    main > section > div#listacreepy > div.creepys > p {
+        font-size: 25px;
+    }
+
+    main > section > div#listacreepy > div.creepys > div.imagemcreepy {
+        padding: 15px;
+    }
+
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#smiledog {
         position: absolute;
-        top: -160px;
-        height: 150px;
+        top: -215px;
+        right: -1px;
+        height: 210px;
     }  
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#slenderman {
         position: absolute;
-        top: -155px;
-        height: 145px;
-        width: 120px;
+        top: -215px;
+        height: 225px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#jeff {
         position: absolute;
-        top: -185px;
-        height: 170px;
-        width: 140px;
+        top: -245px;
+        height: 240px;
+        width: 240px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#therake {
         position: absolute;
-        top: -150px;
-        height: 135px;
-        width: 140px;
+        top: -195px;
+        height: 195px;
+        width: 210px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#ben {
         position: absolute;
-        top: -220px;
-        height: 210px;
-        width: 210px;
+        top: -305px;
+        height: 280px;
+        width: 280px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#tails {
         position: absolute;
-        top: -220px;
-        height: 200px;
-        width: 200px;
+        top: -310px;
+        height: 280px;
+        width: 280px;
     } 
 
     main > section > div#listacreepy > div.creepys > div.imagemcreepy > img#lavender {
         position: absolute;
-        top: -205px;
-        height: 185px;
-        width: 200px;
-    } 
+        top: -325px;
+        height: 285px;
+        width: 280px;
+    }
 }
