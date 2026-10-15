@@ -66,6 +66,7 @@ main > section {
 main > section > div.qualidades {
     background-color: rgb(53, 51, 51);
     border: 1.5px solid darkslategrey;
+    text-align: center;
 }
 
 main > section > div > p {

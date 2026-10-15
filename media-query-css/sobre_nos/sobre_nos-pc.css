@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url("../pagina-inicial/pagina_inicial_pc.css");
+
+@media (min-width: 1025px) {
+    header > nav#itens {
+        border-bottom: 1px solid gray;
+    }
+
+    main > section > div > p {
+    font-size: 35px;
+    }
+
+    main > section > div.qualidades > p > span {
+        font-size: 35px;
+    }
+}

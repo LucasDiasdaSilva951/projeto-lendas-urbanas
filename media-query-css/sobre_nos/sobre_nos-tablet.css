@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import url("../pagina-inicial/pagina_inicial_tablet.css");
+
+@media (min-width: 668px) {
+    main > section > div > p {
+       font-size: 28px;
+    }
+
+    main > section > div.qualidades > p > span {
+        font-size: 28px;
+    }
+}
