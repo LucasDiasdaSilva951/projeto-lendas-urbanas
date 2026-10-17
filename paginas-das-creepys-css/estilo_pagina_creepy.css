@@ -161,7 +161,7 @@ footer > div {
     justify-content: flex-end;
     right: 30px;
     color: var(--cor2);
-    font: 1.8em var(--fonte2);
+    font: 2em var(--fonte2);
 }
 
 footer > div span {
