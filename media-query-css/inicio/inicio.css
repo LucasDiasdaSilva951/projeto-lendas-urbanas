@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media (min-width: 1025px) {
+    
+main > section#inicio > p {
+    font: 2em var(--fonte3);
+    color: var(--cor2);
+    padding: 50px;
+    }
+
+    main > section#inicio > h3 {
+        font-size: 2em;
+    }
+
+    main > section#inicio > h1 {
+        font-size: 4em;
+    } 
+}
