@@ -44,14 +44,14 @@ header {
     overflow: visible;
 }
 
-header > h1 {
+header > a > h1 {
     color: var(--cor2);
     font: 28px var(--fonte2);
     padding: 15px;
 
 }
 
-header > h1 > span#pasta {
+header > a > h1 > span#pasta {
     color: var(--cor3);
 }
 

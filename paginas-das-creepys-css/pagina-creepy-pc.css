@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url("pagina-creepy-tablet.css");
+
+@media (min-width: 1025px) {    
+    :root {
+    --fonte1: "Arimo";
+    --fonte2: "Bloody";
+    --fonte3: "Undisclose";
+    --fonte4: Arial, Helvetica, sans-serif; 
+    }
+
+    header > a > h1 {
+        font-size: 30px;
+    }
+
+    body, html {
+        float: right;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header > nav#itens {
+        border-top: none;
+        background-color: none;
+    }
+
+    header > nav#itens > ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    header > h1 {
+        font-size: 30px;
+    }
+
+    header > nav#itens {
+        display: block;
+    }
+
+    header > span#burger {
+        display: none;
+    }
+
+    header > nav#itens {
+        border-top: none;
+        background-color: none;
+    }
+
+    header > nav#itens > ul > li#inicio {
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        right: 610px;
+        font-size: 25px;
+    }
+
+    header > nav#itens > ul > li#creepypasta {
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        right: 410px;
+        font-size: 25px;
+    }
+
+    header > nav#itens > ul > li#blog {
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        right: 320px;
+        font-size: 25px;
+    }
+
+    header > nav#itens > ul > li#sobre_nos {
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        right: 165px;
+        font-size: 25px;
+    }
+
+    header > nav#itens > ul > li#contato {
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        right: 35px;
+        font-size: 25px;
+    }
+
+    header > nav#itens > ul > div.pesquisa {
+        width: 85%;
+    }
+
+    header > nav#itens > ul > div.pesquisa > button {
+        height: 40px;
+        width: 35px;
+    }
+
+    header > nav#itens > ul > div.pesquisa > input {
+        height: 20px;
+        width: 190px;
+    }
+
+    header > nav#itens > ul > div#redes {
+        position: relative;
+        font-size: 2em;
+    }
+
+    header > nav#itens > ul > div#redes > a#insta {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    header > nav#itens > ul > div#redes > a#yt {
+        position: absolute;
+        top: 10px;
+        right: -30px;
+    }
+
+    header > nav#itens > ul > div#redes > a#tiktok {
+        position: absolute;
+        top: 10px;
+        right: -70px;
+    }
+
+    header > nav#itens > ul > div#redes > a#twitter {
+        position: absolute;
+        top: 10px;
+        right: -110px;
+    }
+
+    main {
+        padding-top: 110px;
+    }
+
+    main > section > div.imagens > img {
+        height: 600px;
+        width: 630px;
+    }
+
+    main > section > div.imagens > img.borda {
+        height: 870px;
+        width: 680px;
+    }
+
+   footer > a > p#seta > span {
+    font-size: 1.5em;
+    font-weight: bolder;
+    }
+}

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media (min-width: 801px) {
+    body, html {
+        float: right;
+        transition: 0.2s;
+        width: 100%;
+    }
+
+    header {
+        height: 80px;
+        width: 100%;
+    }
+
+    header > a > h1 {
+        font-size: 25px;
+    }
+
+    header > nav#itens {
+        display: block;
+    }
+
+    header > span#burger {
+        display: none;
+    }
+
+    header > nav#itens {
+        border-top: none;
+        background-color: none;
+    }
+
+    header > nav#itens > ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    header > nav#itens > ul > li#inicio {
+        background-color: none;
+        position: absolute;
+        top: -80px;
+        right: 475px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    header > nav#itens > ul > li#creepypasta {
+        background-color: none;
+        position: absolute;
+        top: -80px;
+        right: 315px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    header > nav#itens > ul > li#blog {
+        background-color: none;
+        position: absolute;
+        top: -80px;
+        right: 240px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    header > nav#itens > ul > li#sobre_nos {
+        background-color: none;
+        position: absolute;
+        top: -80px;
+        right: 115px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    header > nav#itens > ul > li#contato {
+        background-color: none;
+        position: absolute;
+        top: -80px;
+        right: 10px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    header > nav#itens > ul > div#linha {
+        display: none;
+    }
+
+    header > nav#itens > ul > div.pesquisa {
+        width: 80%;
+    }
+
+    header > nav#itens > ul > div.pesquisa > button {
+        height: 35px;
+    }
+
+    header > nav#itens > ul > div.pesquisa > input {
+        height: 20px;
+        width: 190px;
+    }
+
+    header > nav#itens > ul > div#redes {
+        position: relative;
+        font-size: 1.5em;
+    }
+
+    header > nav#itens > ul > div#redes > a#insta {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    header > nav#itens > ul > div#redes > a#yt {
+        position: absolute;
+        top: 15px;
+        right: -20px;
+    }
+
+    header > nav#itens > ul > div#redes > a#tiktok {
+        position: absolute;
+        top: 15px;
+        right: -55px;
+    }
+
+    header > nav#itens > ul > div#redes > a#twitter {
+        position: absolute;
+        top: 15px;
+        right: -90px;
+    }
+
+    main {
+        padding-top: 110px;
+    }
+}

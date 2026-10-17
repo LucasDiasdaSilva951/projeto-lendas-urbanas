@@ -27,6 +27,17 @@ body, html {
     margin: 0px;
 }
 
+header > a > h1 {
+    color: var(--cor2);
+    font: 28px var(--fonte2);
+    padding: 15px;
+    text-decoration: none;
+}
+
+header > a > h1 > span#pasta {
+    color: var(--cor3);
+}
+
 main {
     margin: 0px;
     padding: 0px;
