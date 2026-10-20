@@ -62,7 +62,7 @@ main > img {
 }
 
 main > section > div > h3 {
-    font: bolder 35px var(--fonte1);
+    font: bolder 25px var(--fonte1);
     color: var(--cor3);
 }
 
@@ -78,7 +78,7 @@ main > section > div > h3 > span {
 }
 
 main > section > div > h1, h2 {
-    font: lighter 80px var(--fonte3);
+    font: lighter 50px var(--fonte3);
     color: var(--cor2);  
     text-align: start;
     padding-left: 5px;
@@ -134,48 +134,6 @@ main > section > ul > li::marker {
 
 footer {
     height: 50px;
-}
-
-footer > a > p#seta {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    color: var(--cor3);
-    font: 2em var(--fonte2);
-    padding: 5px;
-}
-
-footer > a > p#seta:hover {
-    transition: 0.2s;
-    color: var(--cor4);
-}
-
-footer > a > p#seta > span {
-    font-size: 1em;
-    font-weight: bolder;
-}
-
-footer > div#home {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    color: var(--cor2);
-    font: 1.4em var(--fonte2);
-    padding-right: 10px;
-}
-
-footer > div#home > p {
-    position: absolute;
-    top: -85px;
-} 
-
-footer > div#home > p > a#inicio > span {          
-    text-align: left;
-    color: var(--cor3);
-    text-decoration: none;
 }
 
 footer > img {
