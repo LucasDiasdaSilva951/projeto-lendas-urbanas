@@ -73,7 +73,6 @@ header > span#burger:hover {
     right: 20px;
     top: 27px;
     padding: 5px;
-    color: var(--cor3);
 }
 
 header > nav#itens {
