@@ -129,4 +129,9 @@
     main {
         padding-top: 110px;
     }
+
+    footer > div#home > p {
+        font-size: 30px;
+        top: -100px;
+    }
 }

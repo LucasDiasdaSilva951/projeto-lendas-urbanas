@@ -29,6 +29,11 @@
     --cor4: gray;
 }
 
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
 header > a > h1 {
     color: var(--cor2);
     font: 28px var(--fonte2);
@@ -127,19 +132,17 @@ main > section > ul > li::marker {
 }
 
 footer {
-    position: relative;
+    height: 50px;
 }
 
 footer > a > p#seta {
-    position: absolute;
-    top: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
     color: var(--cor3);
     font: 2em var(--fonte2);
-    padding: 15px;
+    padding: 5px;
 }
 
 footer > a > p#seta:hover {
@@ -148,23 +151,28 @@ footer > a > p#seta:hover {
 }
 
 footer > a > p#seta > span {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bolder;
 }
 
-footer > div {
+footer > div#home {
     text-decoration: none;
-    position: absolute;
-    top: 42px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    right: 30px;
+    position: relative;
     color: var(--cor2);
-    font: 2em var(--fonte2);
+    font: 1.4em var(--fonte2);
+    padding-right: 10px;
 }
 
-footer > div span {
+footer > div#home > p {
+    position: absolute;
+    top: -85px;
+} 
+
+footer > div#home > p > a#inicio > span {          
+    text-align: left;
     color: var(--cor3);
     text-decoration: none;
 }
