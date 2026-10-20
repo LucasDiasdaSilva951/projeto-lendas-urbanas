@@ -68,7 +68,6 @@ header > span#burger {
 
 header > span#burger:hover {
     transition: 0.2s;
-    background-color: rgb(53, 50, 50);
     border-radius: 50%;
     position: absolute;
     right: 20px;
