@@ -248,3 +248,9 @@ a {
     color: var(--cor2);
     font-weight: bold;
 }
+
+@media (min-width: 1025px) {
+    header > span#burger:hover {
+        color: var(--cor3);
+    }
+}
